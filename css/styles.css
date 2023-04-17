@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&family=Readex+Pro:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+ width: 100%;
+ height: auto;
+ margin: auto 2rem;
+ align-self: center;
+ display: flex;
+ /* flex-direction: column; */
+ justify-content: center;
+ align-items: center;
+ /* background-color: aquamarine; */
+
+ /* border: 1px solid rgb(7, 132, 7); */
+ /* background-color: rgb(242, 246, 245); */
+ /* box-shadow: 0.5rem 0.5rem rgb(7, 132, 7), -0.5rem -0.5rem rgb(7, 132, 7); */
+}
+.content {
+  background-color: white;
+  width: 80%;
+  height: 100%;
+  display: flex;
+ padding: 2em;
+ border: 5px double rgb(185, 241, 175);
+
+ /* border: 0ch ; */
+}
+.section1 {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: blue; */
+  /* border: 1px solid rgb(7, 132, 7); */
+  
+}
+.img {
+  width: 85%;
+}
+.section2 { 
+  /* width: 70%; */
+  min-width: 40%;
+  height: 100%;
+  flex-grow: 1;
+  padding: 2em;
+  /* background-color: rgba(82, 216, 109, 0.865); */
+}
+
+
+@media only screen and (max-width: 750px){
+	.content {
+    flex-direction: column;
+  }
+  .section1 {
+    width: 100%;
+
+  }
+}
+
+.container {
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+ display: flex;
+ flex-direction: column;
+ padding: 2em;
+ border: 2px ridge #fff;
+ box-shadow: 0 3px 10px rgb(253, 253, 253);
+ background-color: aliceblue;
+ border-radius: .5em;
+ /* text-align: center; */
+}
+
+/* .container-wrapper {
+  background: url('images/background.jpg') no-repeat center center;
+  background-size: 1400px 700px;
+  background-position: 30%;
+  background-attachment: fixed;
+} */
+
+.card p {
+  /* font-family: 'Nanum Brush Script', cursive; */
+  font-family: 'Readex Pro', sans-serif;
+  font-size: 1.5em;
+}
+
