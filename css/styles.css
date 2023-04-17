@@ -35,15 +35,21 @@ body {
 
  /* border: 0ch ; */
 }
+
 .section1 {
   width: 40%;
   height: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap:20px;
   /* background-color: blue; */
   /* border: 1px solid rgb(7, 132, 7); */
   
+}
+.title{
+    font-family: 'Nanum Brush Script', cursive;
 }
 .img {
   width: 85%;
@@ -95,7 +101,7 @@ body {
 } */
 
 .card p {
-  /* font-family: 'Nanum Brush Script', cursive; */
+  
   font-family: 'Readex Pro', sans-serif;
   font-size: 1.5em;
 }
